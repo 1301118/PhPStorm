@@ -12,7 +12,7 @@
     <body>
         <p>
             <?php
-            echo "hello world cameron";
+            echo "hello world";
             ?>
         </p>
     </body>
