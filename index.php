@@ -12,7 +12,9 @@
     <body>
         <p>
             <?php
-            echo "hello world";
+            $myname = "Cameron Lawrie";
+            $myage = 21;
+            echo "My name is" .  $myname . "and I am" . $myage;
             ?>
         </p>
     </body>
