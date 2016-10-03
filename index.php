@@ -12,9 +12,12 @@
     <body>
         <p>
             <?php
-            $myname = "Cameron Lawrie";
-            $myage = 21;
-            echo "My name is " .  $myname . " and I am " . $myage;
+            //$myname = "Cameron Lawrie";
+            //$myage = 21;
+            //echo "My name is " .  $myname . " and I am " . $myage;
+            $name = "Edgar";
+            if ($name == "Simon") {     print "I know you!";
+            }   else {     print "Who are you?";   }
             ?>
         </p>
     </body>
