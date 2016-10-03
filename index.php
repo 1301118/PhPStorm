@@ -15,7 +15,7 @@
             //$myname = "Cameron Lawrie";
             //$myage = 21;
             //echo "My name is " .  $myname . " and I am " . $myage;
-            $name = "Edgar";
+            $name = "Simon";
             if ($name == "Simon") {     print "I know you!";
             }   else {     print "Who are you?";   }
             ?>
