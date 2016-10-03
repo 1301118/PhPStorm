@@ -14,7 +14,7 @@
             <?php
             $myname = "Cameron Lawrie";
             $myage = 21;
-            echo "My name is" .  $myname . "and I am" . $myage;
+            echo "My name is " .  $myname . " and I am" . $myage;
             ?>
         </p>
     </body>
