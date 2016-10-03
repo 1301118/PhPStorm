@@ -37,7 +37,11 @@
                     echo "Invalid entry, please enter mugs, specs or sausage rolls";
             }*/
 
-            $provisionedActivities = array("drugs", "specs","rock", "roll");
+            $provisionedActivities = array("mugs", "specs","sausage rolls");
+
+            $provisionedActivities[0]= "hugs";
+
+            $provisionedActivities[2]= null;
 
             foreach($provisionedActivities as $x) {
                 print "<p>$x</p>";
