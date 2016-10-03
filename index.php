@@ -20,7 +20,7 @@
            // if ($name == "Simon") {     print "I know you!";
            // }   else {     print "Who are you?";   }
 
-            $wantedgood = "sausage rolls";
+            /*$wantedgood = "sausage rolls";
 
 
             switch ($wantedgood) {
@@ -35,7 +35,14 @@
                     break;
                 default:
                     echo "Invalid entry, please enter mugs, specs or sausage rolls";
+            }*/
+
+            $provisionedActivities = array("drugs", "specs","rock", "roll");
+
+            foreach($provisionedActivities as $x) {
+                print "<p>$x</p>";
             }
+
             ?>
         </p>
     </body>
