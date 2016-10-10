@@ -14,7 +14,7 @@ $result = mysqli_query($db, $sql);
 
 while($row = $result->fetch_array())
 {
-    $movieTitle = $row["Title"];
+    $movieTitle = $row['title'];
     echo "<p>" .$movieTitle ."</p>";
 }
 

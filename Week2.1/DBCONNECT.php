@@ -16,3 +16,5 @@ $db = new mysqli(
 if ($db->connect_error){
     die('connectionfailed ['.$db->connect_error.' ]');
 }
+
+?>
