@@ -6,7 +6,9 @@
  * Time: 15:20
  */
 
-include(“DBCONNECT.php”);
+include("DBCONNECT.php");
 
+$sql_query = "SELECT * FROM marvelmovies";
 
+?>
 
