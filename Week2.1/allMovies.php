@@ -12,7 +12,11 @@ $sql_query = "SELECT * FROM marvelmovies";
 
 $result = mysqli_query($db, $sql);
 
-$row = mysql_fetch_array($result, MYSQLI_ASSOC);
+while($row = $result->fetch_array())
+{
+    $movieTitle = $row["Title"];
+    echo "<p>" .$movieTitle ."</p>";
+}
 
 ?>
 
