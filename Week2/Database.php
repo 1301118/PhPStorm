@@ -17,3 +17,5 @@ $db = eu-cdbr-azure-north-e.cloudapp.net(
 if ($db->connect_error){
     die('connectionfailed ['.$db->connect_error.' ]');
 }
+
+?>
