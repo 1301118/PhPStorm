@@ -9,6 +9,6 @@
 $planet = $_GET["planet"];
 echo $planet;
 
-echo "<p>Hello {$planet} How are you today?</p>";
+echo "<p>Hello {$planet}</p>";
 
 ?>
