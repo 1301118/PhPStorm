@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Week2.1</title>
+    <title>Title</title>
 </head>
 <body>
 
-<a href="helloPrinter.php"><button>All Movies</button></a>
-<a href="helloPrinter.php"><button>All Movies By Marvel</button></a>
-<a href="helloPrinter.php"><button>All Movies Created After 2010</button></a>
+<p>Where would you like to say hello?</p>
+
+<form action="helloPrinter.php" method="post"></form>
+    <a href="helloPrinter.php"><button>Earth</button></a>
+    <a href="helloPrinter.php"><button>Mars</button></a>
+    <a href="helloPrinter.php"><button>Uranus</button></a>
 
 </body>
 </html>
