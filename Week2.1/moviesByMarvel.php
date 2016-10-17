@@ -14,6 +14,7 @@ $result = $db-> query($sql_query);
 
 while($row = $result->fetch_array())
 {
+    $movieID = $row['marvelMovieID'];
     $movieTitle = $row['title'];
     echo "<p>" .$movieTitle ."</p>";
 }
