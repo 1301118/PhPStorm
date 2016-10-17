@@ -7,7 +7,7 @@
 <body>
 
 <header>
-    <h1> The Super Hero system</h1>
+    <h1>The Super Hero system</h1>
     <h2>Superhero Home page</h2>
 </header>
 
