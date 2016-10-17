@@ -8,7 +8,7 @@
 
 <p>Where would you like to say hello?</p>
 
-<form action="helloPrinter.php" method="post"></form>
+<form action="helloPrinter.php" method="get"></form>
     <a href="helloPrinter.php?planet=Earth"><button>Earth</button></a>
     <a href="helloPrinter.php?planet=Mars"><button>Mars</button></a>
     <a href="helloPrinter.php?planet=Uranus"><button>Uranus</button></a>
