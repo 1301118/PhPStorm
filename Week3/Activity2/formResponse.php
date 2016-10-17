@@ -11,7 +11,7 @@ $surname = $_POST["surname"];
 $gender = $_POST["gender"];
 $power = $_POST["power"];
 
-echo "Hello {$forname}{$surname}. You have specififed your super power as {$power}. You have specififed your gender a {$gender}"
+echo "Hello {$forname} {$surname}. You have specififed your super power as the ability to {$power}. You have also specififed your gender as {$gender}."
 
 
 
