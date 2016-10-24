@@ -6,7 +6,7 @@
  * Time: 14:15
  */
 
-$username = $_POST["name"];
+$username = $_POST["username"];
 $password = $_POST["password"];
 
 if ($username =="username" && $password=="password")
