@@ -14,6 +14,6 @@ if ($username =="username" && $password==="password")
     setcookie('access_level','standarduser');
 }
 
-header('location: leggedIn.php');
+header('location: homepage.php');
 
 ?>
