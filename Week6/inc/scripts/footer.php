@@ -1,7 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: 1301118
- * Date: 31/10/2016
- * Time: 14:04
- */
+<footer>
+ <p>(c)2016 - CL Computing Systems</p>
+</footer>
+</body>

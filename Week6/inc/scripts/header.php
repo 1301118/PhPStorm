@@ -1,11 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: 1301118
- * Date: 31/10/2016
- * Time: 14:04
- */
-
 <?
 session_start();
 ?>
@@ -13,11 +5,11 @@ session_start();
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>The Blog of Charles Babbage</title>
+    <title>The Blog of Cameron Lawrie</title>
 </head>
 <body>
 <header>
-    <h1>The Blog of Charles Babbage</h1>
+    <h1>The Blog of Cameron Lawrie</h1>
     <nav>
         <ul>
             <li><a href="./">Home Page</a></li>
