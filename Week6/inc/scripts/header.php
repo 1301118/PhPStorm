@@ -6,7 +6,7 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <title>The Blog of Cameron Lawrie</title>
-    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/Week6/style/style.css">
 </head>
 <body>
 <header>
