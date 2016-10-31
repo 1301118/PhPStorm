@@ -1,7 +1,9 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: 1301118
- * Date: 31/10/2016
- * Time: 14:06
- */
+<?
+session_start();
+if (isset
+($_SESSION['username']))
+{
+    unset($_SESSION['username']);
+}
+header("location:./");
+?> 
