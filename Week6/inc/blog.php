@@ -1,24 +1,21 @@
 <?php
 include ("scripts/dbconnect.php");
-include ("scripts/header_l2.php");
-$articleID = $params['blogID'];
+include ("scripts/header.php");
 echo "
 <main>
+<h2>Blog Articles</h2>
+<p>Below is a list of all blog articles</p>
+<ul>
 ";
-$sql = "SELECT * FROM blogArticles where articleID = '$articleID'";
+$sql = "SELECT * FROM blogArticles ";
 $result = $db->query($sql);
 while($row = $result->fetch_array())
 {
     $articleID = $row['articleID'];
     $articleName = $row['articleName'];
     $articleAuthor = $row['articleAuthor'];
-    $articleText = $row['articleText'];
-    echo "
-<atricle>
- <h2>{$articleName}</h2>
- <h3>by {$articleAuthor}</h3>
- {$articleText}
- </atricle>";
+    echo "<li><a href='blog/{$articleID}'>{$articleName}</a> by {$articleAuthor}</
+li>";
 }
 echo "
 </main>
