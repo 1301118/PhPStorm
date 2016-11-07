@@ -1,5 +1,7 @@
 <?php
 
+include("DBCONNECT.php");
+
 $dom = new DOMDocument("1.0");
 $node = $dom->createElement("markers");
 $parnode = $dom->appendChild($node);
@@ -11,7 +13,6 @@ if (!$result) {
 }
 
 header("Content-type: text/xml");
-
 
 while ($row = $result->fetch_array()){
     $node = $dom->createElement("marker");
