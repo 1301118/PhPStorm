@@ -7,10 +7,8 @@ $db = new mysqli(
     'cameronlawrie'
 );
 
-if ($db->connect_error){
-    die('connectionfailed ['.$db->connect_error.' ]');
+if ($db->connect_errno) {
+    die ('Connection Failed :'.$db->connect_error );
 }
-
-$db->close();
 
 ?>
