@@ -1,15 +1,13 @@
 <?php
 
-$x = 1;
-if ($x==1.0)
-    echo "true <br />";
-else
-    echo "false <br />";
-
-$x = 1.0;
-if ($x===1)
-    echo "true <br />";
-else
-    echo "false <br />";
+function do_something(&$arg)
+{
+    $retval = $arg;
+    $arg = $arg + 1;
+    return $retval;
+}
+$a = 3;
+$b = do_something($a);
+echo $a, " ", $b;
 
 ?>
