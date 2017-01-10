@@ -1,12 +1,12 @@
 <?php
 
-function do_something(&$arg)
-{
-    $retval = $arg;
-    $arg = $arg + 1;
-    return $retval;
+function incr_a($y) {
+    $x = $x + $y;
 }
-$a = 3;
+$x = 0;
+$y = 0;
+incr_a(10);
 echo $a;
+echo $y;
 
 ?>
